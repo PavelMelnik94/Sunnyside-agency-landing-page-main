@@ -1,0 +1,40 @@
+//settings
+@import "libs/bootstrap-reboot.min";
+@import "libs/_normalize.scss";
+@import "base/_variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap");
+
+//sage
+@import "blocks/_hero.scss";
+@import "blocks/_content.scss";
+@import "blocks/_testimonials.scss";
+@import "blocks/_images.scss";
+@import "blocks/_footer.scss";
+
+//elems
+@import "blocks/elems/button.scss";
+@import "blocks/elems/link.scss";
+@import "blocks/elems/typography.scss";
+@import "blocks/elems/navbar.scss";
+
+* {
+  font-family: $ff-barlow;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+body {
+  overflow-x: hidden;
+}

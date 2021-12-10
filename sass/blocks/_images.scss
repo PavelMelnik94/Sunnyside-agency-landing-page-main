@@ -1,0 +1,10 @@
+.images {
+  min-height: 1px;
+  max-height: 450px;
+  &-item {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

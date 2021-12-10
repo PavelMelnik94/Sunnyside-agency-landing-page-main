@@ -1,0 +1,44 @@
+.hero {
+  height: 940px;
+  background-color: rgb(62, 191, 255);
+  background-image: url(./../images/desktop/image-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  .header {
+    &__nav {
+      min-width: 300px;
+      justify-content: flex-end;
+      &-item {
+        &--link {
+          margin-right: 25px;
+          a {
+            color: $white;
+          }
+        }
+        &--btn {
+          width: 140px;
+          height: 50px;
+          background-color: $white;
+          border-radius: 50px;
+          text-transform: uppercase;
+          cursor: pointer;
+
+          a {
+            font-family: $ff-fraunces;
+            color: $neutral-very-dark-des-blue;
+          }
+        }
+      }
+    }
+  }
+
+  &__content {
+    margin-top: 100px;
+    h1 {
+      font-family: $ff-fraunces;
+      font-size: 100px;
+      color: $white;
+    }
+  }
+}
