@@ -1,7 +1,9 @@
 .images {
   min-height: 1px;
-  max-height: 450px;
+  display: flex;
   &-item {
+    width: 480px;
+    // max-height: 450px;
     img {
       width: 100%;
       height: auto;
